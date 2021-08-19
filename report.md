@@ -1,14 +1,5 @@
-# Bahrain Convenience/Availability
+# The Foodie's Guide to finding a home in Bahrain
 
-"""
-
-This submission will eventually become your Introduction/Business Problem section in your final report. So I recommend that you push the report (having your Introduction/Business Problem section only for now) to your Github repository and submit a link to it.
-
-Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you will be using, even if it is only Foursquare location data.
-
-This submission will eventually become your Data section in your final report. So I recommend that you push the report (having your Data section) to your Github repository and submit a link to it.
-
-"""
 ## Introduction
 
 I am a foodie and looking for a place stay in Bahrain. I want to study certain areas in Bahrain and the kind of restaurants that surround them.
@@ -16,8 +7,8 @@ I am a foodie and looking for a place stay in Bahrain. I want to study certain a
 I think that a lot of people, not just the youth could benefit from this solution, because the problem isn't finding a decent place to stay in Bahrain, but finding one that best serves their culinary interests perhaps. I mean there are obviously much better factors to look at besides food. However for this problem I want to stick to what I can gain from Foursquare with a free license. Thus, by neatly categorizing areas from their surrounding attributes (such as frequency of coffee shops, closeness to malls etc) I can they can make a better guesstimate of where they might stay next. Foursquare allows us to grab information on venues surrounding a given location, and therefore we will look into the most frequent kind of venues surrounding a given area, and cluster areas based on that. 
 
 ## Data Requirements
-Firstly I would need to scrap data from Wikipedia to lookup towns and cities in Bahrain. After that, I will then geocode those areas to get coordinates using popular geocoders like OpenStreetMap and Map Quest. Futhermore, we'll leverage the Foursquare API to gather the ratings for all venues associated with an area within 500m of that area's location. We'll then look at various food places and restaurants and extract their categories for further analysis.
-I will machine learning to further my analysis on this project.
+Firstly I would need to scrap data from Wikipedia to lookup towns and cities in Bahrain. After that, I will then geocode those areas to get coordinates using popular geocoders like OpenStreetMap and Map Quest. Futhermore, we'll leverage the Foursquare API to gather the most common types of restaurants associated with an area within 500m of that area's location. We'll then look at various food places and restaurants and extract their types for further analysis.
+I will use machine learning to further my analysis on this project.
 
 ## Methodology
 Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
